@@ -115,7 +115,6 @@ int main()
     generateReport(list, OutputField);
     cout << "[+] Detection complete\n";
 
-    //delete this block if the field is Correct
     LogEntry* cur = list.head;
     int preview = 5;
     while (preview > 0)
